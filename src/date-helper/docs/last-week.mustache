@@ -1,0 +1,15 @@
+<div class="intro">
+    <p>
+        {{description}}
+    </p>
+</div>
+<h2>Sample</h2>
+```
+    <script>
+        YUI().use('date-helper', function (Y) {
+            var dateHelper = new Y.DateHelper();
+            /* Gets the dates for last week returning start date and end date */
+            console.info(dateHelper.lastWeek());
+        });
+    </script>
+```

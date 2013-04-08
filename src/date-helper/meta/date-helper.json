@@ -1,0 +1,7 @@
+{
+    "date-helper": {
+        "requires": [
+            "yui-base"
+        ]
+    }
+}

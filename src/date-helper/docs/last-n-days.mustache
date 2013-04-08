@@ -1,0 +1,15 @@
+<div class="intro">
+    <p>
+        {{description}}
+    </p>
+</div>
+<h2>Sample</h2>
+```
+    <script>
+        YUI().use('date-helper', function (Y) {
+            var dateHelper = new Y.DateHelper();
+            /* Gets the date for 10 days ago */
+            console.info(dateHelper.lastNDays(10));
+        });
+    </script>
+```

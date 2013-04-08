@@ -1,0 +1,31 @@
+{
+    "name": "date-helper",
+    "displayName": "Gallery: date-helper",
+    "description": "Date helper is a simple yui module tool to handle some dates cases when is needed to know dates ranges and getting the date object, this module provides some dates cases",
+    "author": ["asotog88"],
+    "use": ["date-helper"],
+
+    "tags": ["gallery"],
+
+    "examples": [{
+            "name": "last-n-days",
+            "displayName": "Get last n days date",
+            "description": "Gets the date knowing only how many days have been passed"
+        },
+        {
+            "name": "yesterday",
+            "displayName": "Get the date of yesterday",
+            "description": "Gets yesterday's date"
+        },
+         {
+            "name": "last-week",
+            "displayName": "Last week dates",
+            "description": "Gets a date range for last week dates from start to end date"
+        },
+        {
+            "name": "current-month-first-day",
+            "displayName": "Current month's first day",
+            "description": "Gets the date for the current month's first date for first day of the month"
+        }
+    ]
+}

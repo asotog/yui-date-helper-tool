@@ -1,0 +1,10 @@
+{
+    "name": "date-helper",
+    "builds": {
+        "date-helper": {
+            "jsfiles": [
+                "js/date-helper.js"
+            ]
+        }
+    }
+}
